@@ -81,8 +81,7 @@ body{
 /* Main */
 
 .row{
-    min-height: 400px;
-    padding: 20px;
+    padding: 50px 0;
     justify-content: center;
 }
 
@@ -102,4 +101,9 @@ body{
 
 .row:nth-child(even){
     background-color: rgb(211,211,211);
+}
+
+.big-pic{
+    background-color: rgb(34,139,34);
+    min-height: 600px;
 }
