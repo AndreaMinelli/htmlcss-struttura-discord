@@ -114,6 +114,9 @@ footer{
     background-color: rgb(35,39,42);
 }
 
+footer hr{
+    border-color: rgb(211,211,211);
+}
 .footer-top{
     padding: 5px 0 30px;
 }
@@ -144,4 +147,12 @@ footer{
 .footer-bottom-link{
     background-color: rgb(127,255,212);
     min-height: 50px;
+    justify-content: space-between;
+}
+
+.footer-bottom a{
+    padding: 3px 7px;
+    background-color: rgb(255,182,193);
+    text-decoration: none;
+    color: black;
 }
