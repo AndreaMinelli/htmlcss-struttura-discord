@@ -4,3 +4,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generals */
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* Utils */
+
+.def-wh{
+    width: 70%;
+}
+
+.flx{
+    display: flex;
+}
+
+.al-center{
+    align-items: center;
+}
+
+.brd-dash{
+    border: 2px dashed black;
+}
+
+/* Header */
+
+.header-bar{
+    background-color: rgb(173,216,230);
+    min-height: 50px;
+    justify-content: center;
+}
+
+.header-nav{
+    min-height: 30px;
+    background-color: rgb(218,165,32);
+}
+
+.header-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.header-logo, .header-login{
+    flex-basis: 20%;
+}
+
+.header-link{
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.header-login{
+    justify-content: flex-end;
+}
+
+.header-jumbo{
+    min-height: 300px;
+    background-color: rgb(0,0,139);
+    justify-content: center;
+}
+
+.jumbox{
+    min-height: 250px;
+    background-color: rgb(238,130,238);
+    width: 50%;
+}
