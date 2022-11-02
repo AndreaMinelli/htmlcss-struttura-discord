@@ -30,6 +30,10 @@ body{
     border: 2px dashed black;
 }
 
+.r-rev{
+    flex-direction: row-reverse;
+}
+
 /* Header */
 
 .header-bar{
@@ -72,4 +76,30 @@ body{
     min-height: 250px;
     background-color: rgb(238,130,238);
     width: 50%;
+}
+
+/* Main */
+
+.row{
+    min-height: 400px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.main-content{
+    min-height: 300px;
+}
+
+.content-description{
+    background-color: rgb(30,144,255);
+    flex-grow: 1;
+}
+
+.content-pic{
+    background-color: rgb(255,192,203);
+    flex-basis: 40%;
+}
+
+.row:nth-child(even){
+    background-color: rgb(211,211,211);
 }
