@@ -107,3 +107,37 @@ body{
     background-color: rgb(34,139,34);
     min-height: 600px;
 }
+
+/* Footer */
+
+footer{
+    background-color: rgb(35,39,42);
+}
+
+.footer-top{
+    justify-content: center;
+    padding: 5px 0 20px;
+}
+
+.footer-link{
+    min-height: 400px;
+}
+
+.footer-social-link{
+    background-color: rgb(240,128,128);
+    flex-basis: 30%;
+}
+
+.footer-general-link{
+    flex-grow: 1;
+    background-color: rgb(32,178,170);
+}
+
+.footer-general-link div{
+    border: 2px dashed white;
+    width: 25%;
+}
+
+.footer-bottom{
+    padding-top: 10px;
+}
