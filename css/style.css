@@ -34,12 +34,15 @@ body{
     flex-direction: row-reverse;
 }
 
+.jst-center{
+    justify-content: center;
+}
+
 /* Header */
 
 .header-bar{
     background-color: rgb(173,216,230);
     min-height: 50px;
-    justify-content: center;
 }
 
 .header-nav{
@@ -59,7 +62,6 @@ body{
 
 .header-link{
     flex-grow: 1;
-    justify-content: center;
 }
 
 .header-login{
@@ -69,7 +71,6 @@ body{
 .header-jumbo{
     min-height: 300px;
     background-color: rgb(0,0,139);
-    justify-content: center;
 }
 
 .jumbox{
@@ -82,7 +83,6 @@ body{
 
 .row{
     padding: 50px 0;
-    justify-content: center;
 }
 
 .main-content{
@@ -115,8 +115,7 @@ footer{
 }
 
 .footer-top{
-    justify-content: center;
-    padding: 5px 0 20px;
+    padding: 5px 0 30px;
 }
 
 .footer-link{
@@ -139,5 +138,10 @@ footer{
 }
 
 .footer-bottom{
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+.footer-bottom-link{
+    background-color: rgb(127,255,212);
+    min-height: 50px;
 }
